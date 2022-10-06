@@ -1,0 +1,27 @@
+
+:not(select){
+    scrollbar-color: rgba(90, 0, 255, 1) rgba(0, 0, 0, 0) !important;
+    scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar, .integrations-select-repos::-webkit-scrollbar{
+    max-height: 6px !important;
+    max-width: 6px !important;
+}
+
+::-webkit-scrollbar, .integrations-select-repos::-webkit-scrollbar, ::-webkit-scrollbar-corner, .integrations-select-repos::-webkit-scrollbar-corner, ::-webkit-scrollbar-track, .integrations-select-repos::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, .integrations-select-repos::-webkit-scrollbar-track-piece{
+    background: rgba(90, 0, 255, 0.3) !important;
+}
+
+::-webkit-scrollbar:hover, .integrations-select-repos::-webkit-scrollbar:hover, ::-webkit-scrollbar-corner:hover, .integrations-select-repos::-webkit-scrollbar-corner:hover, ::-webkit-scrollbar-track:hover, .integrations-select-repos::-webkit-scrollbar-track:hover, ::-webkit-scrollbar-track-piece:hover, .integrations-select-repos::-webkit-scrollbar-track-piece:hover{
+    background: rgba(90, 0, 255, 0.6) !important;
+}
+
+::-webkit-scrollbar-thumb, .integrations-select-repos::-webkit-scrollbar-thumb{
+    background: rgba(90, 0, 255, 0.9) !important;
+    border-radius: var(--scrollbar-chrome-radius) !important;
+}
+
+::-webkit-scrollbar-thumb:hover, .integrations-select-repos::-webkit-scrollbar-thumb:hovers{
+    background: rgba(90, 0, 255, 1) !important;
+}
