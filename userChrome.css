@@ -99,7 +99,7 @@
 }
 
 :root[lwt-default-theme-in-dark-mode] .tab-background[selected], .tab-background[multiselected="true"]{	
-   background: rgba(90, 0, 255, 0.6) !important;
+   background: rgba(90, 0, 255, 0.3) !important;
 }
  
 /*navigation bar background*/
